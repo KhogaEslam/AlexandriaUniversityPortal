@@ -1,0 +1,4 @@
+# AlexandriaUniversityPortal
+Alexandria University Android App
+
+Alexandria University App is an application for Alexandria University staff and students, where staff and students can find news and events of the university.Problem: All or most of all people around the world now have smart phones and it’s better if they have applications on their smartphone which are useful for them, we intend to give them the ability to find updated and important news easily, so they don’t miss any important news or events.Proposed Solution: Design an app that allows a user to get all news and events daily, and enables them to save important events to their calendar, also they can see all new photos and videos in this app, also they can stay in touch with social networks Google+, facebook, twitter and linkedIn, they can contact the university during available channels , and they can get directions to the university if they like.
