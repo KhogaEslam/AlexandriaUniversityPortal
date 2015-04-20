@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # $Id: $
+ #
+ # Copyright (C) 2012 Stoyan Rachev (stoyanr@gmail.com)
+ #
+ # This program is free software; you can redistribute it and/or modify it
+ # under the terms of the GNU General Public License as published by the
+ # Free Software Foundation; either version 2, or (at your option) any
+ # later version.
+ #
+ # This program is distributed in the hope that it will be useful, but
+ # WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ # General Public License for more details.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="eg.edu.alexu.alexandriauniversity"
+>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <!--
+ The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but are recommended.
+    -->
+<!--    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+        <!--android:theme="@style/Theme.AppCompat.Light.DarkActionBar"-->
+
+        <provider
+            android:name=".content.MainContentProvider"
+            android:authorities="eg.edu.alexu.alexandriauniversity.content" />
+
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ChannelsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".AlexUDetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eg.edu.alexu.alexandriauniversity.AlexUDetailActivity" />
+            <intent-filter android:label="View Channels" >
+                <action android:name="android.intent.action.VIEW" />
+                <action android:name="android.intent.action.PICK" />
+                <action android:name="android.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/vnd.feeder.channel" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AddChannelActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:parentActivityName=".activity.ChannelsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eg.edu.alexu.alexandriauniversity.activity.ChannelsActivity" />
+            <intent-filter android:label="New Channel" >
+                <action android:name="android.intent.action.INSERT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/vnd.feeder.channel" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ItemsActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".activity.ChannelsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eg.edu.alexu.alexandriauniversity.activity.ChannelsActivity" />
+            <intent-filter android:label="View Channel Items" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.dir/vnd.feeder.item" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.ViewItemActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".activity.ItemsActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eg.edu.alexu.alexandriauniversity.activity.ItemsActivity" />
+            <intent-filter android:label="View Item" >
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="vnd.android.cursor.item/vnd.feeder.item" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.SettingsActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <service android:name=".service.MainService" />
+
+        <activity
+            android:name=".AlexUListActivity"
+            android:label="@string/title_alexu_list" >
+        </activity>
+        <activity
+            android:name=".AlexUDetailActivity"
+            android:label="@string/title_alexu_detail"
+            android:parentActivityName=".AlexUListActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eg.edu.alexu.alexandriauniversity.AlexUListActivity" />
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps"
+            android:parentActivityName=".AlexUDetailActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eg.edu.alexu.alexandriauniversity.AlexUDetailActivity" />
+        </activity>
+        <activity
+            android:name=".SocialMediaActivity"
+            android:label="@string/title_activity_social_media"
+            android:parentActivityName=".AlexUDetailActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eg.edu.alexu.alexandriauniversity.AlexUDetailActivity" />
+        </activity>
+        <activity
+            android:name=".ContactAUActivity"
+            android:label="@string/title_activity_contact_au"
+            android:parentActivityName=".AlexUDetailActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="eg.edu.alexu.alexandriauniversity.AlexUDetailActivity" />
+        </activity>
+    </application>
+
+</manifest>

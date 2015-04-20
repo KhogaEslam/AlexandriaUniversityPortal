@@ -1,0 +1,28 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/alexu_detail_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen"
+    tools:context="eg.edu.alexu.alexandriauniversity.AlexUDetailActivity"
+    tools:ignore="MergeRootFrame">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF1486A3"
+        tools:context="eg.edu.alexu.alexandriauniversity.MapsActivity"
+        tools:layout="@layout/fragment_alexu_detail" />
+
+    <fragment
+        android:id="@+id/socialfragment"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF1486A3"
+        tools:context="eg.edu.alexu.alexandriauniversity.SocialFragment"
+        tools:layout="@layout/fragment_alexu_detail" />
+
+</FrameLayout>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-5e0cd624f48b3513202bb78060de49e40428ab64.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-92ae4fe1534eb57ba7f38f51a0eafc3909aaca0f.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-7266665e4c7ca105407a4a9a6b3eaa4dace612fc.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-723649aaf348d10efd5d0b5ccf0a41fd400099ef.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-86d500d92c733339f2cf4ea9a48b46403132cdcd.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/libs/jdom-1.1.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8bdfeb39fa929c35f5e4f0b02d34350db39a1efc">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/jdom-1.1.3-75e545f4190e68d53182ecfb65665dc18dffc01f.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-c88ed5a33a6d8b8fc72cb4e4465b7d8cdd31e3ea.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-00e1558058a476fa0ccdba3fb78c9ea804f80fe8.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/libs/ormlite-core-4.41.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a9ed622b35c87d8fec1a6daa61eeeec628df5131">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/ormlite-core-4.41-0cae6569642311962f204ab18b612bc3f25013e4.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-8773e243714be33b579dc545e3f66bf22927b0ec.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-7693259a6393692d786ba0cf16b20ae3075a8160.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-670c524e18a208fb4f566679978f51587c312b6e.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-da2f8b900b5001efd0cdbfc1a730b0f6da3e253a.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/libs/ormlite-android-4.41.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d5ad2ad62e4d84198c08b012afdfaf75623fed8e">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/ormlite-android-4.41-c27ac77648da4aab131a7e1c2430a38679e93d31.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-425e9d29fdd6654df2953d1524e6c45be39e07cb.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-0fbc76b0bc096c40e03952c99d5c9afc895944cf.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-d31a6988a5cc809761899437ba1bd3904c998891.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-8322105559ac4f96d31c1886c593926060aae5c2.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-9ab42997aec104c603e53401c07731620d2b4713.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-ca07bdabd837b8f3d243d03f7fbdd86b77798735.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/libs/ormlite-android-4.41.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d5ad2ad62e4d84198c08b012afdfaf75623fed8e">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/ormlite-android-4.41-c27ac77648da4aab131a7e1c2430a38679e93d31.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0-670c524e18a208fb4f566679978f51587c312b6e.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-fe8e1ad9b7faaceb3fcf8ecbda011e392e6a5a0b.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-888363cf67aa2b389549e97a426a3e81e5abe26f.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-c90088a952ec58efa997efe275280ee3d113ca08.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/libs/jdom-1.1.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="8bdfeb39fa929c35f5e4f0b02d34350db39a1efc">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/jdom-1.1.3-75e545f4190e68d53182ecfb65665dc18dffc01f.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/libs/android-rome-feed-reader-1.0.0-r2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="868c7f0ce1e544561bc3222aefa060a007e1642b">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/android-rome-feed-reader-1.0.0-r2-50e6bb71f258cb2ed430fa7df17b9794e98783ae.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-1a1e8abacb1b45d620271296d6d4fcb1882b3365.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/libs/ormlite-core-4.41.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a9ed622b35c87d8fec1a6daa61eeeec628df5131">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/ormlite-core-4.41-0cae6569642311962f204ab18b612bc3f25013e4.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-526898fee20e153326328fd14c1cf6942ae3a9d5.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0-00e1558058a476fa0ccdba3fb78c9ea804f80fe8.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/libs/android-rome-feed-reader-1.0.0-r2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="868c7f0ce1e544561bc3222aefa060a007e1642b">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/android-rome-feed-reader-1.0.0-r2-50e6bb71f258cb2ed430fa7df17b9794e98783ae.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-7693259a6393692d786ba0cf16b20ae3075a8160.jar" />
+    </item>
+    <item
+        jar="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/home/khogaeslam/AndroidStudioProjects/AlexandriaUniversityPortal/app/build/intermediates/pre-dexed/debug/classes-6bd3ca48359299ff99de58150bdd2c204f9e99e3.jar" />
+    </item>
+
+</items>

@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:background="@color/image_background"
+    android:baselineAligned="false"
+    android:divider="?android:attr/dividerHorizontal"
+    android:orientation="horizontal"
+    android:showDividers="middle"
+    tools:context="eg.edu.alexu.alexandriauniversity.AlexUListActivity">
+
+    <!--
+    This layout is a two-pane layout for the AlexU
+    master/detail flow.
+    
+    -->
+
+    <fragment
+        android:id="@+id/alexu_list"
+        android:name="eg.edu.alexu.alexandriauniversity.AlexUListFragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@color/image_background"
+        tools:layout="@android:layout/list_content" />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:alpha="0.9"
+        android:background="@drawable/background_img">
+
+        <FrameLayout
+            android:id="@+id/alexu_detail_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+</LinearLayout>

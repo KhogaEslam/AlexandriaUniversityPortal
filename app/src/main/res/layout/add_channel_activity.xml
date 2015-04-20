@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # $Id: $
+ #
+ # Copyright (C) 2012 Stoyan Rachev (stoyanr@gmail.com)
+ #
+ # This program is free software; you can redistribute it and/or modify it
+ # under the terms of the GNU General Public License as published by the
+ # Free Software Foundation; either version 2, or (at your option) any
+ # later version.
+ #
+ # This program is distributed in the hope that it will be useful, but
+ # WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ # General Public License for more details.
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FF1486A3"
+    android:orientation="vertical"
+    android:padding="10dip" >
+
+    <!--Subscribe to AlexU Events in English-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feed_url1" />
+
+    <TextView
+        android:id="@+id/url1EditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="@string/http1" />
+
+    <Button
+        android:id="@+id/addButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:text="@string/subscribe" />
+
+    <!--Subscribe to AlexU Events in Arabic-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feed_url2" />
+
+    <TextView
+        android:id="@+id/url2EditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="@string/http2" />
+
+    <Button
+        android:id="@+id/addButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:text="@string/subscribe" />
+
+    <!--Subscribe to AlexU News in English-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feed_url3" />
+
+    <TextView
+        android:id="@+id/url3EditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="@string/http3" />
+
+    <Button
+        android:id="@+id/addButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:text="@string/subscribe" />
+
+    <!--Subscribe to AlexU News in Arabic-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feed_url4" />
+
+    <TextView
+        android:id="@+id/url4EditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:text="@string/http4" />
+
+    <Button
+        android:id="@+id/addButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:text="@string/subscribe" />
+
+    <!--Option to Add New Feed-->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/feed_url" />
+
+    <EditText
+        android:id="@+id/urlEditText"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:inputType="textUri"
+        android:text="@string/http" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dip"
+        android:text="@string/subscribe" />
+
+</LinearLayout>

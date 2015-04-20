@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ # $Id: $
+ #
+ # Copyright (C) 2012 Stoyan Rachev (stoyanr@gmail.com)
+ #
+ # This program is free software; you can redistribute it and/or modify it
+ # under the terms of the GNU General Public License as published by the
+ # Free Software Foundation; either version 2, or (at your option) any
+ # later version.
+ #
+ # This program is distributed in the hope that it will be useful, but
+ # WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ # General Public License for more details.
+ -->
+<resources>
+    <string name="app_name">Alexandria University</string>
+    <string name="error">Error</string>
+    <string name="reading_feed">Reading feed</string>
+    <string name="please_wait">Please wait&#8230;</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="unsubscribe">Unsubscribe</string>
+    <string name="settings">Settings</string>
+    <string name="refresh">Refresh</string>
+    <string name="refresh_all">Refresh All</string>
+    <string name="clean">Clean</string>
+    <string name="view_featured">Featured</string>
+    <string name="next_channel">Next</string>
+    <string name="previous_channel">Previous</string>
+    <string name="newer_item">Newer</string>
+    <string name="older_item">Older</string>
+    <string name="read_more">Read more&#8230;</string>
+
+    <string name="feed_url1">Subscribe to Events in English:</string>
+    <string name="http1">http://au.alexu.edu.eg/English/Pages/EventsRSSFeeds.aspx</string>
+    <string name="feed_url2">Subscribe to Events in Arabic:</string>
+    <string name="http2">http://au.alexu.edu.eg/Arabic/Pages/EventsRSSFeeds.aspx</string>
+    <string name="feed_url3">Subscribe to News in English:</string>
+    <string name="http3">http://au.alexu.edu.eg/English/Pages/NewsRSSFeeds.aspx</string>
+    <string name="feed_url4">Subscribe to News in Arabic:</string>
+    <string name="http4">http://au.alexu.edu.eg/Arabic/Pages/NewsRSSFeeds.aspx</string>
+
+    <string name="feed_url">Feed URL:</string>
+    <string name="http">http://</string>
+
+    <string name="pref_previously_started">Previous</string>
+    <color name="image_background">#ff1699a3</color>
+    <color name="title_background">#FF1486A3</color>
+    <string name="title_activity_splash_screen">Splash Screen</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="splash_screen">splash</string>
+    <string name="title_alexu_list">Alexandria University</string>
+    <string name="title_alexu_detail">Alexandria University History</string>
+    <string name="title_activity_maps">Alexandria University Location</string>
+    <string name="title_activity_social_media">Social Media</string>
+    <string name="title_activity_contact_au">Contact AU</string>
+
+    <string name="splash_screen_land">splash</string>
+    <string name="headerimg">headerimg</string>
+    <string name="aboutalexandriauniversity">Alexandria University History</string>
+    <string name="aboutalexuniv">Alexandria University History</string>
+    <string name="foundedin">Founded:</string>
+    <string name="foundedin1">1938</string>
+    <string name="history">History:</string>
+    <string name="history1">
+    In 1938, the nucleus of the Alexandria University (formerly known as Farouk University) had its beginning in the form of two faculties of Fouad the First University. These were the faculties of Arts and Law. The faculty of Engineering was then established in 1941.\n
+\n
+ In the light of the need for developing more disciplines for higher learning and with a view towards meeting the need of the people of Alexandria, Alexandria University became a separate entity in August 1942 with four additional faculties: Science, Commerce, Medicine and Agriculture.\n
+\n
+ In 1952, it became "Alexandria University". Since then, the University witnessed growth and expansion in several fields: the number of Faculties and high institutes increased to 22. Some example of them are as follows:\n
+\n
+Faculty of Nursing, 1954 (formerly, High Institute of Nursing)\n
+Faculty of Pharmacy, 1956\n
+High Institute of Public Health, 1963\n
+Faculty of Education, 1969\n
+Faculty of Dentistry, 1971\n
+Medical Research Institute, 1971\n
+Faculty of Veterinary Medicine, 1974\n
+Institute of Graduate Studies and Research, 1983\n
+Faculty of Tourism and Hotels, 1983\n
+\n
+Alexandria University supervised the establishment of four faculties in the Nile Delta. Those were: Faculty of Medicine (1962) and Faculties of Science (1969) in Tanta (currently Tanta University), Education and Agriculture (1969) in Kafr-Elsheikh (currently Kafr-Elsheikh University).\n
+\n
+ Seven other Faculties were established in Damanhour, the capital of Behera Governorate: the Faculty of Education (1980), the Faculties of Arts, Agriculture, and Commerce (1983), Science, Veterinary Medicine, and Nursing (2007).( currently Damanhour University)\n
+\n
+In 1989, the Faculties and Institute affiliated to Helwan University and located in Alexandria joined the Alexandria University by a Presidential Decree: four Faculties of Physical Education for men,  Physical Education for women, fine Arts, and agriculture at Saba-Basha.\n
+\n
+A Faculty of Basic Education was also established in 1991, faculty of tourism and Hotels, Faculty of Agriculture, Faculty of Veterinary Medicine and Faculty of Nursing in Marsa-Matrouh Governorate, 300 Km west of Alexandria.\n
+\n
+In 1998, two Faculties affiliated to the ministry of Higher Education, joined the Alexandria University: Kindergarten Teachers Training and Specific Education.\n
+\n
+Believing in its role towards Arab and African countries, Alexandria University established in 1960 in Beirut, Lebanon, "Beirut Arab University" which is run and supervised by educational and administrative cadres from Alexandria University.\n
+\n
+Recently, Alexandria University is working on the establishment of a branch in Juba, south of Sudan, and in Ndjamena in Tchad.</string>
+    <string name="mission">Mission: </string>
+    <string name="mission1">Mission: </string>
+    <string name="vision">Vision: </string>
+    <string name="vision1">Vision: </string>
+    <string name="goals">Goals: </string>
+    <string name="goals1">Goals: </string>
+    <string name="dsc">Alexandria University</string>
+    <string name="title_activity_google_play_services">Google Play</string>
+    <string name="action_share">Share</string>
+
+</resources>
