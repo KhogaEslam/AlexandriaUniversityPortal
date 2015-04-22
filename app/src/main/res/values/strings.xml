@@ -104,5 +104,6 @@ Recently, Alexandria University is working on the establishment of a branch in J
     <string name="dsc">Alexandria University</string>
     <string name="title_activity_google_play_services">Google Play</string>
     <string name="action_share">Share</string>
+    <string name="title_activity_location">Alexandria University Location</string>
 
 </resources>

@@ -175,11 +175,11 @@ public class AlexUListActivity extends FragmentActivity
                 if (wifi.isAvailable() && wifi.isConnected()) {
 
                     Toast.makeText(this, "Loading Location over WIFI", Toast.LENGTH_LONG).show();
-                    Intent mapIntent = new Intent(this, MapsActivity.class);
+                    Intent mapIntent = new Intent(this, LocationActivity.class);
                     startActivity(mapIntent);
                 } else if (mobile.isAvailable() && mobile.isConnected()) {
                     Toast.makeText(this, "Loading Location Over Mobile 3G ", Toast.LENGTH_LONG).show();
-                    Intent mapIntent = new Intent(this, MapsActivity.class);
+                    Intent mapIntent = new Intent(this, LocationActivity.class);
                     startActivity(mapIntent);
 
                 } else {
