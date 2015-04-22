@@ -659,6 +659,5 @@ public class ChannelsActivity extends FragmentActivity {
                 }
             });
         }
-
     }
 }

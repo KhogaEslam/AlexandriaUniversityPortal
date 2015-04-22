@@ -127,6 +127,7 @@
             android:name=".AlexUListActivity"
             android:label="@string/title_alexu_list" >
         </activity>
+
         <activity
             android:name=".AlexUDetailActivity"
             android:label="@string/title_alexu_detail"

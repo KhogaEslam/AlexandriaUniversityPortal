@@ -104,6 +104,16 @@ Recently, Alexandria University is working on the establishment of a branch in J
     <string name="dsc">Alexandria University</string>
     <string name="title_activity_google_play_services">Google Play</string>
     <string name="action_share">Share</string>
+    <string name="email">Email: </string>
+    <string name="emailaddress">Portal@AlexU.Edu.Eg</string>
+    <string name="phone">Phone: </string>
+    <string name="phonenumber">+203</string>
+    <string name="website">Website: </string>
+    <string name="websitelink">http://www.AlexU.Edu.Eg/</string>
     <string name="title_activity_location">Alexandria University Location</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="googleplus">Google+</string>
+    <string name="youtube">Youtube</string>
 
 </resources>

@@ -21,84 +21,98 @@
             android:background="@drawable/headerimg" />
     </FrameLayout>
 
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="80dp"
-        android:clickable="true"
-        android:onClick="openwebsite"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/websiteimg"
-            android:layout_width="67dp"
-            android:layout_height="69dp"
-            android:background="@drawable/weblink" />
-
-        <TextView
-            android:id="@+id/website"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Website" />
-
-        <TextView
-            android:id="@+id/websitetext"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="http://www.alexu.edu.eg/" />
-    </LinearLayout>
-
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:clickable="true"
-        android:onClick="sendemail"
-        android:orientation="horizontal">
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2" >
 
-        <ImageView
-            android:id="@+id/emailimg"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/aboutus_email" />
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:onClick="sendemail"
+                android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/email"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Email" />
+                <ImageView
+                    android:id="@+id/emailimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/aboutus_email" />
 
-        <TextView
-            android:id="@+id/emailtext"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:onClick="sendemail"
-            android:text="portal@alexu.edu.eg" />
-    </LinearLayout>
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/email" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:clickable="true"
-        android:onClick="callphonenumber"
-        android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/emailtext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:onClick="sendemail"
+                    android:text="@string/emailaddress" />
+            </LinearLayout>
 
-        <ImageView
-            android:id="@+id/phoneimg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/aboutus_info" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:onClick="callphonenumber"
+                android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/phone"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Phone" />
+                <ImageView
+                    android:id="@+id/phoneimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/aboutus_info" />
 
-        <TextView
-            android:id="@+id/phonetext"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="(+20)3" />
-    </LinearLayout>
+                <TextView
+                    android:id="@+id/phone"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/phone" />
+
+                <TextView
+                    android:id="@+id/phonetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/phonenumber" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="80dp"
+                android:clickable="true"
+                android:onClick="openwebsite"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/websiteimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/weblink" />
+
+                <TextView
+                    android:id="@+id/website"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/website" />
+
+                <TextView
+                    android:id="@+id/websitetext"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/websitelink" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
 
 
 </LinearLayout>

@@ -71,13 +71,14 @@ public class AlexUListActivity extends FragmentActivity
                     .replace(R.id.alexu_detail_container, fragment)
                     .commit();
 
-        } else {
+        }
+        /*else {
             // In single-pane mode, simply start the detail activity
             // for the selected item ID.
             Intent detailIntent = new Intent(this, AlexUDetailActivity.class);
             //detailIntent.putExtra(AlexUDetailFragment.ARG_ITEM_ID, id);
             startActivity(detailIntent);
-        }
+        }*/
     }
 
     /**

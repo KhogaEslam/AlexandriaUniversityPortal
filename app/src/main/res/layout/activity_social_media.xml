@@ -2,14 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:clickable="false"
     android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:background="@color/image_background"
-
     tools:context="eg.edu.alexu.alexandriauniversity.SocialMediaActivity">
 
     <FrameLayout
@@ -23,83 +21,97 @@
             android:background="@drawable/headerimg" />
     </FrameLayout>
 
-    <LinearLayout
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:clickable="true"
-        android:onClick="openfacebook"
-        android:orientation="horizontal">
+        android:id="@+id/scrollView3" >
 
-        <ImageView
-            android:id="@+id/facebookimg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/aboutus_facebook" />
-
-        <TextView
-            android:id="@+id/facebook"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Facebook" />
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:onClick="opentwitter"
-        android:orientation="horizontal">
-
-        <ImageView
-            android:id="@+id/twitterimg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/aboutus_twitter" />
-
-        <TextView
-            android:id="@+id/twitter"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Twitter" />
-    </LinearLayout>
+            android:orientation="vertical">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:onClick="opengoogleplus"
-        android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="openfacebook"
+                android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/googleplusimg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/aboutus_info" />
+                <ImageView
+                    android:id="@+id/facebookimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/aboutus_facebook" />
 
-        <TextView
-            android:id="@+id/googleplus"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Google+" />
-    </LinearLayout>
+                <TextView
+                    android:id="@+id/facebook"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/facebook" />
+            </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:clickable="true"
-        android:onClick="openyoutube"
-        android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="opentwitter"
+                android:orientation="horizontal">
 
-        <ImageView
-            android:id="@+id/youtubeimg"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/aboutus_info" />
+                <ImageView
+                    android:id="@+id/twitterimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/aboutus_twitter" />
 
-        <TextView
-            android:id="@+id/youtube"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Youtube" />
-    </LinearLayout>
+                <TextView
+                    android:id="@+id/twitter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/twitter" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="opengoogleplus"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/googleplusimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/aboutus_info" />
+
+                <TextView
+                    android:id="@+id/googleplus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/googleplus" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:onClick="openyoutube"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/youtubeimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/aboutus_info" />
+
+                <TextView
+                    android:id="@+id/youtube"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/youtube" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
 </LinearLayout>
