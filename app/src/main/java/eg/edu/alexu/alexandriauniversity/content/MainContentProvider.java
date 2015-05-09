@@ -22,8 +22,8 @@ import eg.edu.alexu.alexandriauniversity.model.Item;
 public class MainContentProvider extends AbstractContentProvider {
     public static final String AUTHORITY = "eg.edu.alexu.alexandriauniversity.content";
 
-    private static final String DATABASE_NAME = "feeder.db";
-    private static final int DATABASE_VERSION = 10;
+    private static final String DATABASE_NAME = "alexuportal.db";
+    private static final int DATABASE_VERSION = 1;
 
     @SuppressWarnings("rawtypes")
     private static final Class[] CLASSES = { Channel.class, Item.class };

@@ -552,9 +552,7 @@ public class ChannelsActivity extends FragmentActivity {
         boolean previouslyStarted = prefs.getBoolean(getString(R.string.pref_previously_started), false);
         if(!previouslyStarted)
         {
-            SharedPreferences.Editor edit = prefs.edit();
-            edit.putBoolean(getString(R.string.pref_previously_started), Boolean.TRUE);
-            edit.apply();
+
             //Check internet connection for now all times but next step will be first time only
             final ConnectivityManager connMgr = (ConnectivityManager)
                     this.getSystemService(Context.CONNECTIVITY_SERVICE);
@@ -567,13 +565,22 @@ public class ChannelsActivity extends FragmentActivity {
             if (wifi.isAvailable() && wifi.isConnected()) {
                 Toast.makeText(this, "Adding Feeds over WIFI", Toast.LENGTH_LONG).show();
                 addChannelFirstTime();
+                SharedPreferences.Editor edit = prefs.edit();
+                edit.putBoolean(getString(R.string.pref_previously_started), Boolean.TRUE);
+                edit.apply();
             }
             else if (mobile.isAvailable() && mobile.isConnected()) {
                 Toast.makeText(this, "Adding Feeds Over Mobile 3G ", Toast.LENGTH_LONG).show();
                 addChannelFirstTime();
+                SharedPreferences.Editor edit = prefs.edit();
+                edit.putBoolean(getString(R.string.pref_previously_started), Boolean.TRUE);
+                edit.apply();
             }
             else {
                 Toast.makeText(this, "No Network WIFI/3G, Can't Add Feeds!", Toast.LENGTH_LONG).show();
+                SharedPreferences.Editor edit = prefs.edit();
+                edit.putBoolean(getString(R.string.pref_previously_started), Boolean.FALSE);
+                edit.apply();
             }
         }
     }

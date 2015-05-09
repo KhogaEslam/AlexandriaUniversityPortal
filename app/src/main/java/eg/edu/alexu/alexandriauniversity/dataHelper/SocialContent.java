@@ -6,21 +6,14 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Helper class for providing sample content for user interfaces created by
- * Android template wizards.
+ * Helper class for providing sample content for user interfaces
  * <p/>
- * TODO: Replace all uses of this class before publishing your app.
+ * TO DO: Replace all uses of this class before publishing your app.
  */
 public class SocialContent {
 
-    /**
-     * An array of sample (dummy) items.
-     */
     public static List<SocialList> ITEMS = new ArrayList<>();
 
-    /**
-     * A map of sample (dummy) items, by ID.
-     */
     public static Map<String, SocialList> ITEM_MAP = new HashMap<>();
 
     static {
@@ -37,9 +30,6 @@ public class SocialContent {
         ITEM_MAP.put(item.id, item);
     }
 
-    /**
-     * A dummy item representing a piece of content.
-     */
     public static class SocialList {
         public String id;
         public String content;

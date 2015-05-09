@@ -185,6 +185,8 @@ public class AlexUListActivity extends FragmentActivity
 
                 } else {
                     Toast.makeText(this, "No Network WIFI/3G", Toast.LENGTH_LONG).show();
+                    Intent mapIntent = new Intent(this, LocationActivity.class);
+                    startActivity(mapIntent);
                 }
                 break;
         }
